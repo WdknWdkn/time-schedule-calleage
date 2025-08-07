@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
+  // Vercelでは通常のSSRモードで動作させる
+  // output: 'export', // Vercelでは不要
   images: {
     unoptimized: true
   },
